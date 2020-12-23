@@ -4,7 +4,7 @@
   roles:
   - name: osp-facts
 
-- hosts: frontends
+- hosts: frontend
   gather_facts: false
   tasks:
   - name: Curl website
